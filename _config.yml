@@ -1,0 +1,12 @@
+# basic options
+title: M2 
+author: kaaro
+email: kartik@akriya.co.in
+description: Fondly remembering our dear Mrutyunjay Mishra (M2)
+twitter_username: karx_brb
+github_username:  karx
+
+# Build settings
+markdown: kramdown
+theme: minima
+
