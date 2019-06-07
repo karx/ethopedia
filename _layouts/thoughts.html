@@ -1,0 +1,16 @@
+---
+layout: archive
+---
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].thoughts | default: "Thoughts for m2" }}</h3>
+
+{% for thought in site.thoughts %}
+  
+  
+    <a href="{{ thought.url }}" style="text-decoration: none">
+      <p>{{ thought.content | markdownify }}</p>
+      
+    </a>
+    <h4 style="text-align: right"> - {{ thought.name }}</h4 st>
+    <br>
+{% endfor %}

@@ -1,6 +1,10 @@
 ---
 name: Skateboarding Park - Janwar Maker Space
-status: Ongoin
+title: Skateboarding Park - Janwar Maker Space
+categories:
+  - Project
+status: Ongoing
+layout: single
 ---
-Linked nodes:
+#### Linked nodes:
 * Arjav

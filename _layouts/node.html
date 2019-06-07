@@ -1,0 +1,12 @@
+---
+layout: archive
+---
+<!-- <h2> Nodes connected to M2</h2> -->
+{% for node in site.nodes %}
+  <h3>
+    <a href="{{ node.url }}">
+      {{ node.name }} - {{ node.designation }}
+    </a>
+  </h3>
+  <p>{{ node.content | markdownify }}</p>
+{% endfor %}

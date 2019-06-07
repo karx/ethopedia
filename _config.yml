@@ -33,6 +33,9 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - _nodes
+  - _ongoing_threads
+  - _thoughts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -74,10 +77,20 @@ author:
       url: "https://instagram.com/"
 
 collections:
-  - ongoing_threads:
-      output: true
-  - nodes:
-      output: true
+  ongoing_threads:
+     output: true
+     permalink: /threads/:name
+     layout: single
+    
+  nodes:
+    output: true
+    permalink: /nodes/:name
+    layout: single
+
+  thoughts:
+    output: true
+    permalink: /thoughts/:name
+    layout: single
 
 footer:
   links:
@@ -110,10 +123,32 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _ongoing_threads
+  - scope:
+      path: "_ongoing_threads"
+      type: "threads"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _thoughts
+  - scope:
+      path: "_thoughts"
+      type: "thoughts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
-category_archive:
+threads_archive:
   type: liquid
-  path: /categories/
-tag_archive:
+  path: /threads/
+nodes_archive:
   type: liquid
-  path: /tags/
+  path: /nodes/

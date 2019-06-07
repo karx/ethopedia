@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Threads"
+    url: /threads/
+  - title: "Nodes"
+    url: /nodes/
+  - title: "Thoughts"
+    url: /thoughts/
   - title: "About"
     url: /about/

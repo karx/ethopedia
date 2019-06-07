@@ -1,6 +1,11 @@
 ---
 name: Kartik Arora
+title: Kartik Arora
+
+categories:
+  - Node
 designation: Resident Hacker
+layout: single
 ---
 
 M2 sir met me in 91Springboard Noida. He was one of the active community members.

@@ -1,0 +1,12 @@
+---
+layout: archive
+---
+<!-- <h2> Ongoing threads </h2> -->
+{% for thread in site.ongoing_threads %}
+  <h2>
+    <a href="{{ thread.url }}">
+      {{ thread.name }} - {{ thread.status }}
+    </a>
+  </h2>
+  <p>{{ thread.content | markdownify }}</p>
+{% endfor %}
