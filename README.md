@@ -29,3 +29,11 @@ tussle with our imagined world
 
 amalendu
 ```
+
+## Contributing
+Please help fill in the blanks. 
+To add/update information about a project, a node or your thoughts
+
+* drop a mail kartik.arora1214@gmail.com with the subject 'Remembering M2'
+* Add an Issue to this repository
+
