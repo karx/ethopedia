@@ -1,9 +1,9 @@
 main:
   - title: "Threads"
     url: /threads/
-  - title: "Nodes"
-    url: /nodes/
-  - title: "Thoughts"
-    url: /thoughts/
+  - title: "Tools"
+    url: /tools/
+  - title: "Products & Services"
+    url: /products/
   - title: "About"
     url: /about/

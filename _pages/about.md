@@ -2,31 +2,15 @@
 permalink: /about/
 title: "About"
 ---
-Mrutyunjay left us behind with our own commitments and assurances to realise dreams he saw with us in larger interests. This place on the web is dedicate intially help collect all the information in a moderated way. 
+Founded in 2017, our aim has been to make people embrace technolgy. We have been working as a product house - designing, developing and deploying solutions for our own community and for our clients!
+
+Thanks to the open web, fueled with the advancements in Web Technologies, Real-time data analysis, connecting networks and Embedded Systems, in an age of open discourse piggybacking on social media, we a team of engineers find ourselves in a unqiue spot to fullfill a gap.
+
 
 ## Other thoughts
 
 ```
-Unimagined
+Any sufficiently advanced technology is indistinguishable from magic.
 
-Colors spread unevenly
-We cluster our imagination 
-to visualize a pattern
-
-Words spread incoherently 
-to imagine a poem
-
-Stars spread in the dark night
-We imagine constellation
-
-Death walks away on a random path
-leaving us to imagination
-
-In a deep corner
-we constantly
-stretch ourselves
-and 
-tussle with our imagined world
-
-amalendu
+- Arthur C. Clarke
 ```

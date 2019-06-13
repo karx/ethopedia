@@ -1,12 +1,31 @@
 ---
 layout: archive
+toc: true
 ---
-<!-- <h2> Nodes connected to M2</h2> -->
-{% for node in site.nodes %}
-  <h3>
-    <a href="{{ node.url }}">
-      {{ node.name }} - {{ node.designation }}
-    </a>
-  </h3>
-  <p>{{ node.content | markdownify }}</p>
+
+{{ content }}
+
+<ul class="taxonomy__index">
+  {% assign toolsInCategories = site.tools | group_by_exp: 'tool', 'tool.categories' %}
+  {% for categories in toolsInCategories %}
+    <li>
+      <a href="#{{ categories.name }}">
+        <strong>{{ categories.name }}</strong> <span class="taxonomy__count">{{ categories.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% assign toolsByCategories = site.tools | group_by_exp: 'tool', 'tool.categories' %}
+{% for categories in toolsByCategories %}
+  <section id="{{ categories.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ categories.name }}</h2>
+    <!-- {{ categories }} -->
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in categories.items %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
 {% endfor %}

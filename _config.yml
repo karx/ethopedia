@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: M2
+title: Akriya Technologies
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Mrutyunjay left us behind with our own commitments and assurances to realise dreams he saw with us in larger interests. This place on the web is dedicate intially help collect all the information in a moderated way. 
-twitter_username: username
+  Make people embrace technology!
+twitter_username: karx_brb
 github_username: karx
 minimal_mistakes_skin: default
 search: true
@@ -33,9 +33,9 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  - _nodes
+  - _tools
   - _ongoing_threads
-  - _thoughts
+  - _products
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -59,22 +59,22 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Mrutyunjay Mishra (M2)"
+  name   : "Akriya Technologies"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "M2 was not only a great person, but a rich man of wealth"
+  bio    : "Embracing Technology"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://akriya.co.in"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/karx_brb"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/karx"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/kaaroclick"
 
 collections:
   ongoing_threads:
@@ -82,27 +82,27 @@ collections:
      permalink: /threads/:name
      layout: single
     
-  nodes:
+  tools:
     output: true
-    permalink: /nodes/:name
+    permalink: /tools/:name
     layout: single
 
-  thoughts:
+  products:
     output: true
-    permalink: /thoughts/:name
+    permalink: /products/:name
     layout: single
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/karx_brb"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/karx"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/kaaroclick"
 
 defaults:
   # _posts
@@ -134,10 +134,11 @@ defaults:
       comments: true
       share: true
       related: true
-  # _thoughts
+      toc: true
+  # _products
   - scope:
-      path: "_thoughts"
-      type: "thoughts"
+      path: "_products"
+      type: "products"
     values:
       layout: single
       author_profile: true
@@ -149,6 +150,6 @@ defaults:
 threads_archive:
   type: liquid
   path: /threads/
-nodes_archive:
+tools_archive:
   type: liquid
-  path: /nodes/
+  path: /tools/
