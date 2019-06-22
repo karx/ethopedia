@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+
+<article id="content" class="page__content">
+
+
+  {{ content }}
+
+  {% if page.support == true %}
+    {% include_cached support.html %}
+  {% endif %}
+
+  {% if page.comments == true %}
+    {% include comments.html %}
+  {% endif %}
+</article>
+
+<aside class="page__aside">
+  {% if page.toc %}
+    <nav class="page__toc">
+      <h3 class="title">On this page:</h3>
+      {{ content | toc_only }}
+    </nav>
+  {% endif %}
+  {% if page.tags %}
+    <nav class="page__taxonomy">
+      <h3 class="title">Explore more:</h3>
+      {% for tag in page.tags %}<span><a href="{{ tag | replace:' ','-' | downcase | prepend: '/tag/' | append: '/' | relative_url }}">{{ tag }}</a></span>{% endfor %}
+    </nav>
+  {% endif %}
+  {% if site.related_posts.size >= 1 %}
+    {% include page__related.html %}
+  {% endif %}
+  <p><a class="back-to-top" href="#nav-primary">↑ back to top</a></p>
+</aside>

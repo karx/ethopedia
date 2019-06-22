@@ -1,0 +1,24 @@
+
+.feature-main {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+}
+.feature-list-1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.featureimage {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.feature-list-2 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
