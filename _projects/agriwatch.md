@@ -39,19 +39,24 @@ sidebar:
     url: "/assets/images/AgriWatch/agriwatch-schema.png"
  
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: https://avatars3.githubusercontent.com/u/7826138?s=400&u=9fb2c463d89472c513d0d0f47c77218f348a0a0b&v=4
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+  - url: "/assets/images/AgriWatch/agriwatchscreens/humidity.jpg"
+    image_path: "/assets/images/AgriWatch/agriwatchscreens/humidity.jpg"
+    alt: "dashboard page screenshot with humidity graph"
+  - url: "/assets/images/AgriWatch/agriwatchscreens/soil moisture.jpg"
+    image_path: "/assets/images/AgriWatch/agriwatchscreens/soil moisture.jpg"
+    alt: "dashboard page screenshot with soil moisture graph"
+  - url: "/assets/images/AgriWatch/agriwatchscreens/wind.jpg"
+    image_path: "/assets/images/AgriWatch/agriwatchscreens/wind.jpg"
+    alt: "dashboard page screenshot with wind graph"
+  - url: "/assets/images/AgriWatch/agriwatchscreens/sunlight.jpg"
+    image_path: "/assets/images/AgriWatch/agriwatchscreens/sunlight.jpg"
+    alt: "dashboard page screenshot with sunlight graph"
+  
 
 ---
 
 AgriWatch is an Agriculture monitoring system. Using precise system and smart algorithms, AgriWatch can automate the tedious agricultural processes. AgriWatch is a simple, easy to install device for farms. The device calculates soil, weather, ambient air and crop data and send it to server for further analytics. Based on the analytics data, servers operate the irrigation pumps and valves based on crop's requirement. The smart platform will provides insights to the farmer about the choice of fertilizers, pest-control, and upcoming crop-planning.
 
 
+{% include gallery caption="Screencaptures from **dashboard**." %}
 

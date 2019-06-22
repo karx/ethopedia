@@ -8,6 +8,8 @@ main:
     url: "/"
   - title: "Team"
     url: /team/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

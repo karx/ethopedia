@@ -8,8 +8,8 @@ const date = `${dateObj.getFullYear()}-${padStart(
   dateObj.getMonth() + 1
 )}-${padStart(dateObj.getDate())}`;
 const banner = `/*!
- * Minimal Mistakes Jekyll Theme ${pkg.version} by ${pkg.author}
- * Copyright 2013-${dateObj.getFullYear()} Michael Rose - mademistakes.com | @mmistakes
+ * Akriya Technologies ${pkg.version} by ${pkg.author}
+ * Copyright 2017-${dateObj.getFullYear()} Akriya Technologies - akriya.co.in | @karx01
  * Licensed under ${pkg.license}
  */
 `;
