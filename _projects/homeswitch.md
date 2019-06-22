@@ -8,11 +8,10 @@ status: Ongoing
 layout: projecto
 excerpt: Offline first - Smart home solution
 features:
-  - One touch connection to Switches
-  - Smart mesh connectivity
-features_2:
-  - Intelligent customer database
-  - Smart Data driven reporting 
+  - title: One touch connection to Switches
+  - title: Smart mesh connectivity
+  - title: Intelligent customer database
+  - title: Smart Data driven reporting 
 feature_image: "/assets/images/homeswitch/homeswitch.png"
 
 header: 

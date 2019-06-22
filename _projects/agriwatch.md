@@ -8,23 +8,24 @@ status: Deployed
 layout: projecto
 excerpt: A smart and precise system to automate tedious agricultural activities.
 features:
-    - Soil Ph Value
-    - Soil Moisture
-    - Soil Temperature
-    - Leaf Wetness
-    - Ambient Air Temperature
-    - Humidity
-features_2:
-    - Air Pressure (Barometric pressure)
-    - Wind Direction
-    - Wind Speed
-    - Rainfall Measurement
-    - Lightning Sensor
-    - Cloud Height (Sky Visibility)
-    - Sunshine Hours 
+    - title: Soil Ph Value
+    - title: Soil Moisture
+    - title: Soil Temperature
+    - title: Leaf Wetness
+    - title: Ambient Air Temperature
+    - title: Humidity
+    - title: Air Pressure (Barometric pressure)
+    - title: Wind Direction
+    - title: Wind Speed
+    - title: Rainfall Measurement
+    - title: Lightning Sensor
+    - title: Cloud Height (Sky Visibility)
+    - title: Sunshine Hours 
 feature_image: /assets/images/AgriWatch/agriwatch1.png
 header: 
     overlay_image: /assets/images/AgriWatch/header.jpg
+    teaser: /assets/images/AgriWatch/header.jpg
+    overlay_filter: 0.7
 
 tags:
   - Arduino
@@ -45,9 +46,6 @@ gallery:
   - url: "/assets/images/AgriWatch/agriwatchscreens/soil moisture.jpg"
     image_path: "/assets/images/AgriWatch/agriwatchscreens/soil moisture.jpg"
     alt: "dashboard page screenshot with soil moisture graph"
-  - url: "/assets/images/AgriWatch/agriwatchscreens/wind.jpg"
-    image_path: "/assets/images/AgriWatch/agriwatchscreens/wind.jpg"
-    alt: "dashboard page screenshot with wind graph"
   - url: "/assets/images/AgriWatch/agriwatchscreens/sunlight.jpg"
     image_path: "/assets/images/AgriWatch/agriwatchscreens/sunlight.jpg"
     alt: "dashboard page screenshot with sunlight graph"

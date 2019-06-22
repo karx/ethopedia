@@ -41,3 +41,6 @@ xMarketer is a new edge technology, a platform to market your products in an ent
 
 
 
+### Partners
+* Mint-ware Ventures
+

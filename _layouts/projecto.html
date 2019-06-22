@@ -45,7 +45,7 @@ layout: default
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        {% if page.features and page.feature_image_full != true%}
+        <!-- {% if page.features and page.feature_image_full != true%}
             <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> Features </h4></header>
             <div class="feature-main">
                 <div class="featureimage">
@@ -64,10 +64,39 @@ layout: default
                     {% endfor %}
                 </div>
             </div>
-        {% endif %}
+           {% endif %} -->
+        <h3>Features</h3>
         {% if page.feature_image_full %}
             <img src="{{page.feature_image}}" alt="" srcset="">
         {% endif %}
+        {% if page.features and page.features[0] %}
+          <div class="features">
+
+            {% for feature in page.features %}
+
+            {% if feature.title %}
+            <div class="feature">
+              <div>
+                <span class="fa-stack fa-1x">
+                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                  <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+                </span>
+              </div>
+              <div class="featureText">
+                <h3>
+                  {{ feature.title }}
+                </h3>
+                <p>
+                  {{ feature.description }}
+                </p>
+              </div>
+            </div>
+            {% endif %}
+
+            {% endfor %}
+
+          </div>
+          {% endif %}
 
       </section>
 
