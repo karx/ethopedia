@@ -5,6 +5,7 @@ categories:
   - Project
   - Client
 status: Ongoing
+type: System
 layout: projecto
 excerpt: Everything you need to rent your bikes.
 features:

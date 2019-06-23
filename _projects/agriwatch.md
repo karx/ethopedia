@@ -5,6 +5,7 @@ categories:
   - Project
   - Client
 status: Deployed
+type: System
 layout: projecto
 excerpt: A smart and precise system to automate tedious agricultural activities.
 features:

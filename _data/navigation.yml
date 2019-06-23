@@ -4,12 +4,14 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Projects"
     url: /projects/
-  - title: "Posts"
+  - title: "Blog"
     url: "/"
   - title: "Team"
     url: /team/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
+  - title: "Core"
+    url: /core.html
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

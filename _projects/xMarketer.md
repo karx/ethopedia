@@ -5,6 +5,7 @@ categories:
   - Project
   - Client
 status: Deployed
+type: Software
 layout: projecto
 excerpt: help desk system hypercharged with RTS chat and video services
 features:
@@ -14,8 +15,6 @@ features:
   - Live Call
   - International Phone Call
   - Face to Face call
-    
-features_2:
   - Automated Bot response
   - Emoji & GIFs
   - Customizable help desk

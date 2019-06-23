@@ -5,6 +5,7 @@ categories:
   - Project
   - Client
 status: Deployed
+type: System
 layout: projecto
 excerpt: Empowering shared swimming pool operations
 features:

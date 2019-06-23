@@ -5,6 +5,7 @@ categories:
   - Project
   - Client
 status: Ongoing
+type: System
 layout: projecto
 excerpt: Offline first - Smart home solution
 features:
