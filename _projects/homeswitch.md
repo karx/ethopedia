@@ -40,7 +40,9 @@ sidebar:
     image_alt: "Homeswitch logo"
     text: "Move onto bug fixing"
     date: "2019-05-21"
-    
+model:
+  asset: "/assets/models/esp.glb"
+  color: #FFFFFF
 ---
 
 The scope of this project is to design, implement and deliver an end-user consumable product/system for homeSwitches. This would include

@@ -31,11 +31,16 @@
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
+    {% if script.is_module %}
+      <script type="module" src="{{ script.path }}"></script>
+    {% else %}
+
     {% if script contains "://" %}
       {% capture script_path %}{{ script }}{% endcapture %}
     {% else %}
       {% capture script_path %}{{ script | relative_url }}{% endcapture %}
     {% endif %}
     <script src="{{ script_path }}"></script>
+    {% endif %}
   {% endfor %}
 {% endif %}

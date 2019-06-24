@@ -22,5 +22,7 @@ tags:
   - ESP8266
   - Arduino
   - Django
-  
+model: 
+  asset: "/assets/models/Owl.glb"
+  color: #FFFFFF
 ---

@@ -28,7 +28,6 @@ tags:
   - Firebase
   - GCP
   - Google Maps API
-    
 ---
 Jyoti is travelling 30000 kms across the country in a span of 300 days. Jyoti wants to prove that it is possible for a girl to travel 30,000kms alone and also wants to tell the world that hinterland of India is very safe.
 

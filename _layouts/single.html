@@ -42,6 +42,11 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        {% if page.model%}
+        <div class="model-view">
+          <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="{{page.model.color}}"></model-viewer>
+        </div>
+        {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
