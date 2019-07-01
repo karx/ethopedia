@@ -14,6 +14,10 @@ header:
   actions:
     - label: "Start a project"
       url: "/start-a-project"
+
+chunks:
+  - title: offerings
+    
 ---
 
 We are a team of high synergy Engineers and Design Thinkers based at banks of Yamuna River in India.

@@ -376,5 +376,5 @@ footer_text_color                         : "#666666"
 head_scripts:
   - path: https://unpkg.com/@google/model-viewer/dist/model-viewer.js
     is_module: true
-  - path: https://rawcdn.githack.com/GoogleWebComponents/google-chart/d958f7b13321c10d78f93fa16d841899b63cf897/google-chart.js
+  - path: https://unpkg.com/@google-web-components/google-chart@3.0.0/google-chart.js?module
     is_module: true
