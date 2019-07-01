@@ -28,7 +28,7 @@ We are a team of high synergy Engineers and Design Thinkers based at banks of Ya
   - __IoT Interactions__: 
     Moving beyound screens, leveraging touch, gestures, sound and visual feeds.
 
-* Comprehensive Engines
+* Comprehensive Cloud Engines
   - Build, scale, connect, integrate and innovate.
 
 * Digital Services

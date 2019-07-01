@@ -1,6 +1,6 @@
 # [Homepage for Akriya Technologies](https://akriya.co.in)
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/karx/homepage/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/karx/homepage.svg)](https://raw.githubusercontent.com/karx/homepage/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg)](https://jekyllrb.com/)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/karx01)
 
