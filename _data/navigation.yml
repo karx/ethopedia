@@ -5,11 +5,11 @@ main:
   - title: "Projects"
     url: /projects/
   - title: "Blog"
-    url: "/blogs/"
+    url: "/blogs"
   - title: "Team"
     url: /team/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  - title: "Contact Us"
+    url: /contact/
   - title: "Core"
     url: /core.html
   # - title: "About"
