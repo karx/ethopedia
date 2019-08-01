@@ -15,29 +15,46 @@ header:
 ---
 
 
+
+Allow us to _materialize_ your next great idea.
+
 We are a team of high synergy Engineers and Design Thinkers based at banks of Yamuna River in India.
 [More about us](/core)
 
 
+We provide, we partner, we prototype. We design and we develop.
+From custom IoT solutions to web plugins, with our curated [Technology Stack](/tech)
+
 ## Offerings
-* Reactive Frontends
-  - __Mobile Apps__:
-    Aquire good engagement by offering a seamless and unique user experience.
-  - __Web Applications__: 
-    Share, showcase, Interact, Report.
-  - __IoT Interactions__: 
-    Moving beyound screens, leveraging touch, gestures, sound and visual feeds.
+* __Launch a new Idea__
+  - Looking to bring a new App to the market?
+  - A new service model?
 
-* Comprehensive Cloud Engines
-  - Build, scale, connect, integrate and innovate.
+  Need a team to design, develop and ship?
 
-* Digital Services
-  - Digital Brand Identity
-  - UI/UX design
-  - Hosting & Maintaince
+  [Book a Session](/contact?type="new-idea")
 
-* Our Culture
-  - Indian Jugaad
-  - Utility Belt
-  - Love
+* __Improve the user experience__
+  
+  Staying _current_ in this day and age is hard but rewarding. 
 
+  We can help design, re-design, retrofit to provide responsive and intuitive solutions.
+
+* __Streamline your business__
+
+  Rethinking the way of doing things?
+  Want efforts towards optimal solutions?
+
+  We help clients save costs by rapidly improving on legacy systems and fix technical debts if any.
+
+* __Recuse Project__
+
+  The software industry is notorious for unfinished, un-timely paused projects. Looking for a collaborative team to push forward?
+
+  
+* __Scale and improve existing solutions__
+  - Launching into a new market?
+  - New feature-set planned for your customers?
+  - Speed-up existing services
+
+  We have helped many clients achieve this with extream turnaround times. Yes, we are proud.
