@@ -30,8 +30,10 @@ We are a team of high synergy Engineers and Design Thinkers based at banks of Ya
 We provide, we partner, we prototype. We design and we develop.
 From custom IoT solutions to web plugins, with our curated [Technology Stack](/tech)
 
-## Offerings
-* __Launch a new Idea__
+
+## __Launch a new Idea__
+
+![New idea](/assets/images/svg/undraw_drone_race_0sim.svg)
   - Looking to bring a new App to the market?
   - A new service model?
 
@@ -39,25 +41,32 @@ From custom IoT solutions to web plugins, with our curated [Technology Stack](/t
 
   [Book a Session](/contact?type="new-idea")
 
-* __Improve the user experience__
+## __Improve the user experience__
+
+![Improve user experience](/assets/images/svg/undraw_virtual_assistant_jjo2.svg)
+
   
   Staying _current_ in this day and age is hard but rewarding. 
 
   We can help design, re-design, retrofit to provide responsive and intuitive solutions.
 
-* __Streamline your business__
+## __Streamline your business__
 
+![Buisness](/assets/images/svg/undraw_process_e90d.svg)
   Rethinking the way of doing things?
   Want efforts towards optimal solutions?
 
   We help clients save costs by rapidly improving on legacy systems and fix technical debts if any.
 
-* __Recuse Project__
+## __Recuse Project__
 
+![Buisness](/assets/images/svg/undraw_environment_iaus.svg)
   The software industry is notorious for unfinished, un-timely paused projects. Looking for a collaborative team to push forward?
 
   
-* __Scale and improve existing solutions__
+## __Scale and improve existing solutions__
+
+![Buisness](/assets/images/svg/undraw_decide_3iwx.svg)
   - Launching into a new market?
   - New feature-set planned for your customers?
   - Speed-up existing services
