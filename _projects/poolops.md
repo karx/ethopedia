@@ -5,6 +5,7 @@ categories:
   - Project
   - Client
 status: Deployed
+type: System
 layout: projecto
 excerpt: Empowering shared swimming pool operations
 features:
@@ -26,12 +27,11 @@ tags:
   - NodeRed
 ---
 
-The scope of this project is to design, implement and deliver an end-user consumable product/system for homeSwitches. This would include
- - A interface for the end-user: A mobile App
- - In-wall devices: Arduino based devices
- - Process definations for Installation, mantaince and debugging
+The scope of the project was to identify gaps, propose and build technology powered solutions to empower the daily Administration and operations of a shared Swimming Pool facility.
 
-The homeSwitch system is proposed to have no dependencies to the internet, and should be a full-funtional system while offline.
+
+We designed and deployed a cluster of devices and periferals to moniter and log the current operations of the facility.
+
 
 ## Partners
 * Fitso
