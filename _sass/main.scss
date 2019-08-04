@@ -1,70 +1,70 @@
-
 .features {
-	grid-area: c;
-	display: flex;
-	flex: 0 1 auto;
-	align-content: flex-start;
-	justify-content: flex-start;
-	flex-grow: 1;
-	flex-wrap: wrap;
-	margin-top: 93px;
+  grid-area: c;
+  display: flex;
+  flex: 0 1 auto;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin-top: 93px;
 }
 
 .feature {
-	display: flex;
-	padding-top: 63px;
-	padding-left: 15px;
-	padding-right: 15px;
-	width: calc(100%/3);
+  display: flex;
+  padding-top: 63px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: calc(100%/3);
 }
 
 .feature:nth-child(-n+3) {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .feature:nth-child(3n) {
-	padding-right: 0px;
+  padding-right: 0px;
 }
 
 .feature:nth-child(3n+1) {
-	padding-left: 0px;
+  padding-left: 0px;
 }
 
 .iconBack {
-	color: $feature-icons-background-color;
+  color: $feature-icons-background-color;
 }
 
 .iconTop {
-	color: $feature-icons-foreground-color;
+  color: $feature-icons-foreground-color;
 }
 
 .socialIconBack {
-	color: $social-icons-background-color;
+  color: $social-icons-background-color;
 }
 
 .socialIconTop {
-	color: $social-icons-foreground-color;
+  color: $social-icons-foreground-color;
 }
 
 .featureText {
-	margin-left: 18px;
+  margin-left: 18px;
 }
 
-.featureText > h3 {
+.featureText>h3 {
   color: $feature-title-color;
   margin-top: 0;
 }
 
-.featureText > p {
-	color: $feature-text-color;
-	margin-top: 8px;
-	line-height: 1.5;
+.featureText>p {
+  color: $feature-text-color;
+  margin-top: 8px;
+  line-height: 1.5;
 }
 
 .model-view {
   width: 100%;
   height: 400px;
 }
+
 .model-view model-viewer {
   width: 100%;
   height: 100%;
@@ -73,4 +73,61 @@
 #gchart-word {
   width: 100%;
   height: 100%;
+}
+
+
+.service-each {
+  display: grid;
+
+  grid-row: auto;
+
+
+  &:nth-of-type(odd) {
+    grid-template-columns: 40% 60%;
+
+    .heading {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    .asset {
+      grid-column: 1;
+    }
+
+    .text {
+      grid-column: 2;
+      grid-row: 2;
+    }
+  }
+
+  &:nth-of-type(even) {
+    grid-template-columns: 60% 40%;
+    // background: #abb8c6;
+    .heading {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .asset {
+      grid-column: 2;
+    }
+
+    .text {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  }
+  .heading {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+    padding: 20px;
+  }
+  .asset {
+    padding: 10%;
+    grid-row: 2;
+
+  }
+
 }
