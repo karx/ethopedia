@@ -9,7 +9,7 @@ email: rachitshah06@gmail.com
 tags: 
   - Community Member
 header:
-  teaser: ""
+  teaser: https://user-images.githubusercontent.com/7826138/65159235-64365800-da51-11e9-9176-c482db63ca5d.jpg
 sidebar:
   - title: "Role"
     image: 
