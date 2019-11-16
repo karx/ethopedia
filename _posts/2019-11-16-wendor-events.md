@@ -9,6 +9,16 @@ tags:
   - ESP32
   - IoT
 
+# sidebar:
+#   - title: 
+#     image: "/assets/images/wendor-events/wendorEventMini-demo.jpg"
+#     image_alt: "Wending machine with user"
+#     text: 
+
+header:
+  teaser: "/assets/images/wendor-events/wendorEventMini-demo.jpg"
+
+
 ---
 
 ## WendorEvents
