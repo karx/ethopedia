@@ -22,7 +22,7 @@ header:
 ---
 
 ## WendorEvents
-`WendorEvents` is the name used by us internally to refer to this project. First tested and deployed at Megaboxing event 2019 in Gurgaon, is now due to complete its third succesfull Event at DLF Mall of India tommorow. Crossing over 250k Impressions and over a million in reach it has just begun.
+`WendorEvents` is the name used by us internally to refer to this project. First tested and deployed at Megaboxing event 2019 in Gurgaon, is now due to complete its third successful Event at DLF Mall of India tomorrow. Crossing over 250k Impressions and over a million in reach, it has just begun.
 The use-case is pretty straight forward: 
 
 `Online Promotions/Impressions => Offline Gratification`
@@ -34,7 +34,7 @@ To implement this, we use the following,
 
 Only if it were that simple. We learnt, luckily on our very first event :
 ```
-Events industry calls for operational excilence
+Events industry calls for operational excellence
 ```
 
 So now our toolkit is something like this:
