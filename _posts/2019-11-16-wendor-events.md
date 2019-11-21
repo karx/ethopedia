@@ -53,10 +53,10 @@ Megaboxing 2019
 
 
 ## Event 1 - #KhushiyonKaSeason
-![DLF MOI Pre-Diwali](https://user-images.githubusercontent.com/7826138/68996687-553e1b80-08c3-11ea-8bcf-82c019046781.jpg)
+![DLF MOI Pre-Diwali](/assets/images/wendor-events/wendorEventMini.jpg)
 
 
 ## Event 2 - #BeFashionAbElle
-![DLF + Elle](https://user-images.githubusercontent.com/7826138/68996685-553e1b80-08c3-11ea-8d0d-e5155359d0a0.jpg)
+![DLF + Elle](/assets/images/wendor-events/wendorEventLarge.jpg)
 
 
