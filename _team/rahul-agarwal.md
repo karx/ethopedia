@@ -15,6 +15,7 @@ sidebar:
   - title: "Responsibilities"
     text: "Enforcer"
 
+draft: true
 ---
 #Geek #Artificial_Intelligence #Innovator #Speaker #Explorer #Patriot #Traveller
 
