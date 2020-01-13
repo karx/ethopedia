@@ -5,3 +5,15 @@
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .left-side {
+
+    }
+    .right-side {
+
+    }
+}
