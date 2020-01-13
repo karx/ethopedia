@@ -1,10 +1,17 @@
 
 <div class="intro-container">
     <div class="left-side">
-
+        <div class="intro-line-1">
+            {{page.excerpt}}
+        </div>
+        <div class="intro-line-2">
+            {% for button in page.header.actions %}
+            <button>{{button.label}}</button>
+            {% endfor %}
+        </div>
     </div>
     <div class="right-side">
-        <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="{{page.model.color}}">
+        <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="transparent">
         </model-viewer>
     </div>
 </div>
