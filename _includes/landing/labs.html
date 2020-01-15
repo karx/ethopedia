@@ -8,11 +8,14 @@
         <div class="each-beta-item">
             <div class="item-header">
                 <h3>{{beta.title}}</h3>
+                <div class="item-info">
+                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try It </a> {%endif%}
+                    {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
+                    {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
+                </div>
                 <p>{{beta.description}}</p>
             </div>
-            <div class="item-info">
-                {{}}
-            </div>
+           
         </div>
         {% endfor %}
     </div>

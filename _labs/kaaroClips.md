@@ -14,5 +14,6 @@ teaser: https://camo.githubusercontent.com/475a6b0c61c0507b48eb719df4545e8e4b0f3
 
 github: https://github.com/karx/twitter-kClips
 embed_link: '<a class="twitter-timeline" href="https://twitter.com/ClipsKaaro?ref_src=twsrc%5Etfw">Tweets by ClipsKaaro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
- 
+contribute_link: https://github.com/karx/twitter-kClips
+visit_link: https://twitter.com/ClipsKaaro?ref_src=twsrc%5Etfw
 ---
