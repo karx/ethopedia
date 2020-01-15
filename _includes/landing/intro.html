@@ -6,7 +6,7 @@
         </div>
         <div class="intro-line-2">
             {% for button in page.header.actions %}
-            <button>{{button.label}}</button>
+            <a href="{{button.url}}">{{button.label}}</a>
             {% endfor %}
         </div>
     </div>

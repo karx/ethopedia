@@ -1,4 +1,4 @@
 ---
 title: DigitalIcon
-desciption: IoT enabled merchendise
+description: IoT enabled merchendise
 ---

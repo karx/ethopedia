@@ -224,6 +224,10 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: single
+  labs:
+     output: true
+     permalink: /:collection/:path
+     layout: single
 
 # Sass/SCSS
 sass:
@@ -331,6 +335,18 @@ defaults:
   - scope:
       path: ""
       type: team
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      toc: false
+  # _labs
+  - scope:
+      path: ""
+      type: lab
     values:
       layout: single
       author_profile: false

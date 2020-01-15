@@ -1,0 +1,20 @@
+<div class="labs-container">
+    <div class="labs-header section-header">
+        <h2>Cooking in labs</h2>
+        <p>Some of our internal projects.</p>
+    </div>
+    <div class="labs-content">
+        {% for beta in site.labs %}
+        <div class="each-beta-item">
+            <div class="item-header">
+                <h3>{{beta.title}}</h3>
+                <p>{{beta.description}}</p>
+            </div>
+            <div class="item-info">
+                {{}}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>

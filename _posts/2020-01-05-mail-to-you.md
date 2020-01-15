@@ -2,7 +2,7 @@
 layout: single
 title: mail-to-you
 header: 
-  teaser: ""
+  teaser: "/assets/images/Deva-a.png"
 tags:
   - Akriya Technologies
   - knowledge fragment

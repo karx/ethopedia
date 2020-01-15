@@ -19,7 +19,7 @@ chunks:
   - title: offerings
 
 model:
-  asset: "/assets/models/esp.glb"
+  asset: "/assets/models/akriya-1-2.glb"
   color: #FFFFFF
 
     
