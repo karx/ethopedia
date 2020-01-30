@@ -1,0 +1,19 @@
+<div class="blogs-container">
+    <div class="blogs-header section-header">
+        <h2>Blogs</h2>
+        <p>What are we upto?</p>
+    </div>
+    <div class="blogs-content">
+        {% for post in site.posts limit:4 %}
+            {% if post.id == page.id %}
+                {% continue %}
+            {% endif %}
+            {% include archive-single.html type="grid" %}
+        {% endfor %}
+    </div>
+
+    <div class="blogs-more">
+        <a href="./blogs.html" class="internal-ling">More..</a>
+    </div>
+
+</div>

@@ -5,7 +5,7 @@ excerpt: "Welcome to Akriya Technologies - embracing Digital Transformation"
 toc: false
 author_profile: false
 excerpt: "Make technology work for you."
-layout: home_thing
+layout: landing
 wide: true
 header:
   overlay_image: "/assets/images/homepage-banner.png"
@@ -17,6 +17,11 @@ header:
 
 chunks:
   - title: offerings
+
+model:
+  asset: "/assets/models/akriya-1-2.glb"
+  color: #FFFFFF
+
     
 ---
 
