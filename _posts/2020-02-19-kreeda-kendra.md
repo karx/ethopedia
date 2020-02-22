@@ -21,14 +21,9 @@ model:
 # Event Proposal - `Kreeda Kendra`
 
 ## About Us
-`Kreeda Kendra` is a small experience meetup set up for a group of like-minded individuals-associates-partners. 
-```
-Personal remark to the sender about `me and sender`
-Ex1. We last talked about the Applications of the Schematic web on medical science almost a year ago
-Ex2. Last, when we met we discussed how ...
+`Kreeda Kendra` is a small experience meetup set up for a group of like-minded individuals-associates-partners. We have discussed, debated, felt, and contributed towards this new age of connected devices in the last few years. 
 
-```
-This year, to enforce more information sharing, experience sharing and also maintain a healthy feedback loop, we have this year
+This year, to enforce more information sharing, experience sharing and also maintain a healthy feedback loop, I present
 `Kreeda Kendra` - a makeshift gaming-themed experience centre.
 
 We aim to showcase and present new and interesting use-cases of tools and products created for technologies of IoT Networks, Computing and Data Science.
