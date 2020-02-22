@@ -2,8 +2,6 @@
 
 layout: single
 title:  "Kreeda Kendra - Let's play"
-header:
-  teaser: "/assets/images/digital-icon-web-logo.png"
 tags:
   - Event
   - ESP32
