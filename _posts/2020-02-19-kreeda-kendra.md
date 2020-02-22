@@ -120,6 +120,7 @@ DRAW.io schedule
 ```
 
 ### [GE](https://we.akriya.co.in) Tools
+
 | Head | Value (INR) |
 | ---- |   ----|
 | Gaming Booth | 20k per booth. Min 2 recommended. |
