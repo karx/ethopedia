@@ -82,9 +82,6 @@ Optional:
 * The aim is Khaao+Khelo
 
 ## Schedule
-```
-DRAW.io schedule
-```
 
 * 20th Feb - Partner Freeze
 * 20th Feb - Spend Budget Freeze
