@@ -28,7 +28,7 @@ sidebar:
 
 Open as many as you want!
 
-Click on the Buzzer image to Request.
+Click on the [Buzzer image](https://vb.akriya.co.in){:target="_blank"} to Request.
 
 
 ### Recommendation
