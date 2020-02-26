@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Virtual Buzzer - Buzz em"
+title:  "Virtual JustBuzz - Buzz em"
 header:
   teaser: "/assets/images/devices/buzzer.jpg"
 tags:
@@ -12,7 +12,7 @@ tags:
   - Events
   
 sidebar:
-  - title: The Virtual Watch
+  - title: The JustBuzz Watch
     image: "/assets/images/devices/watch.jpg"
     image-alt: virtual watch
     url: http://vb.akriya.co.in/watch
@@ -21,18 +21,18 @@ sidebar:
 #   asset: "/assets/models/esp.glb"
 #   color: #FFFFFF
 ---
-## Virtual Buzzers
+## Virtual JustBuzz
 
-* [Virtual Buzzers](https://vb.akriya.co.in){:target="_blank"} <- Can/should open multiple to try
-* [Virtual Watch](https://vb.akriya.co.in/watch){:target="_blank"} <- more the merrier
+* [Virtual JustBuzz](https://vb.akriya.co.in){:target="_blank"} <- Can/should open multiple to try
+* [Virtual JustBuzz Watch](https://vb.akriya.co.in/watch){:target="_blank"} <- more the merrier
 
 Open as many as you want!
 
-Click on the [Buzzer image](https://vb.akriya.co.in){:target="_blank"} to Request.
+Click on the [JustBuzz image](https://vb.akriya.co.in){:target="_blank"} to Request.
 
 
 ### Recommendation
-* Open [Virtual Watch](https://vb.akriya.co.in/watch) in Mobile browser.
+* Open [Virtual JustBuzz Watch](https://vb.akriya.co.in/watch) in Mobile browser.
 * Ensure `https` protocol.
 * Open alot of em`.
 
