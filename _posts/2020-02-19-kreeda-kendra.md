@@ -76,11 +76,28 @@ Optional:
 
 ## Schedule
 
-* 20th Feb - Partner Freeze
-* 20th Feb - Spend Budget Freeze
-* 24th Feb - Usecase Freeze
-* 25th Feb - Prelims for Event Fin
-* 29th Feb - let's meet.
+| Time | Agenda | DRI | Special Requirement if any |
+| --- | --- | --- | --- |
+| 11:00 AM | Opening Ceremony / Ice Breaking |  Kartik | ⌨ |
+| 12 noon | Open floor Choose your own game. Venue Tour | All | 🎮 |
+| 12:40 PM | More about [FaceEvents]() | Dheeraj | 📷 |
+| 1:00 PM | Brawlhalla/SpeedRunner Tournament  | Kartik | 🎮 |
+| 1:10 PM | More about [C.R.E.A.M](https://akriya.co.in)  | Kartik | 🖼 |
+| 1:30 PM | LhL - latest CREAM merch | Ashtam Singh | 💡💡💡 |
+| 2:00 PM | Lunch | All | 🍲 |
+| 2:40 PM | More about [GE](https://we.akriya.co.in)  | Kartik | 📱 |
+| 3:00 PM | FIFA Tournament | Gandharv Bhagat | ⚽ |
+| 3:20 PM | More about [Vidiyo.me](https://vidiyo.me) | Chitransh | 🍹 |
+| 4:00 PM | CS:GO 1v1 finals | Ashtam | ⛑ | 
+| 5:00 PM | High Tea 🍵 | All | 🍜 |
+| 5:30 PM | Live AMA | Kartik | ⁉ |
+| 6:00 PM | Closing notes | Kartik | ㊙ |
+
+* CS:GO prelims start at 12 noon
+* HomeSwitch Demo at 12 noon with Rackesh 
+
+
+All schedules are Tentative till the event. After the event they are history and then they are in stone. I shall share that as well.
 
 ## Budget
 
@@ -135,4 +152,4 @@ Images Carousel Full Netlfix FUll
 * Budget Freeze
 * Game prelims
 * Catering Finalize
-* Fin this document
+
