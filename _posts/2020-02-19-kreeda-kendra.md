@@ -97,7 +97,8 @@ Optional:
 * HomeSwitch Demo at 12 noon with Rackesh 
 
 
-All schedules are Tentative till the event. After the event they are history and then they are in stone. I shall share that as well.
+All schedules are Tentative until the event. After the event, they are history and then they are in stone. I shall share that as well.
+
 
 ## Budget
 
