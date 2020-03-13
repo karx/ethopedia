@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Virtual JustBuzz - Buzz em"
+description: Virtual JustBuzz for Demo
 header:
   teaser: "/assets/images/devices/buzzer.jpg"
 tags:
@@ -17,6 +18,10 @@ sidebar:
     image-alt: virtual watch
     url: http://vb.akriya.co.in/watch
     text: Buzz when you need
+
+contribute_link: https://github.com/karx/virtual-buzzer
+visit_link: https://akriya.co.in/labs/virtualbuzzer.html
+
 # model:
 #   asset: "/assets/models/esp.glb"
 #   color: #FFFFFF
