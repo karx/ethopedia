@@ -83,7 +83,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : karx_brb
+  username               : akriyaIN
 facebook:
   username               : AkriyaIN
   app_id                 : 334414337063190
@@ -97,8 +97,8 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://www.facebook.com/akriyaIN/"
-    - "https://twitter.com/karx_brb"
-    - "https://instagram.com/kaaroclick"
+    - "https://twitter.com/akriyaIN"
+    - "https://instagram.com/akriyaClick"
 
 # Analytics
 analytics:
@@ -124,7 +124,7 @@ author:
       url: "https://akriya.co.in"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/karx_brb"
+      url: "https://twitter.com/akriyaIN"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/akriyaIN/"
@@ -133,14 +133,14 @@ author:
       url: "https://github.com/karx"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/kaaroclick"
+      url: "https://instagram.com/akriyaClick"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/karx_brb"
+      url: "https://twitter.com/akriyaIN"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/akriyaIN/"
@@ -155,7 +155,7 @@ footer:
       url: "https://bitbucket.org/kaaro/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/kaaroclick"
+      url: "https://instagram.com/akriyaclick"
 
 
 # Reading Files
