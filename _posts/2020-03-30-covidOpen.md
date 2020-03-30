@@ -46,6 +46,12 @@ Hope you benifit from it too.
 
 ## Open Web
 This category will focus on web based portal and tools. 
+### Dashboards
+* JHU Global Cases Portal
+The Coronavirus COVID-19 Global Cases by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU) [Portal](https://coronavirus.jhu.edu/map.html) was on of the first comprehensive ones to pop up on the internet. 
+The raw data used to run this dashboard, like many other is sourced from: [this GitHub repository](https://github.com/CSSEGISandData/COVID-19)
+
+The website also links references to all the data sources that it uses to compile this information.
 
 ## Open Broadcast  
 This category will focus on someof the great content peices created by YouTubers/Cinematographers.
@@ -53,19 +59,12 @@ This category will focus on someof the great content peices created by YouTubers
 ## Open Hardware
 This category will focus on Engineering projects that are making a difference.
 
+## Closing Statements
+Some thoughts I wanted to get out there along with this text.
+* If you are planning to create/work on a tool/resource/app/dashboard make it open source. Use platforms like GitLabs or Github to maintain. A trello-like board to help people understand the current status, get onboarded fast.
 
-<!-- 
-## Recommendations/Best Practices
-* Topics only lowercase, numbers and dashes.
+* Times are what they are. Think of this as an adventure, a story you get tell your grandkids, the time when the entire world was on lockdown. Make it a good story, smile.
 
-* Topic stub from Left to Right :: General to specific
+* We can curb miss-information, by flooding the mediums with factual information, with references. Do share infromation, but only what you have firsthand, marking yourself as reference. IF you are reposting, fact check by exploring the references and then repost. No technology can solve miss-information, humans can, humans are the ones that lie.
 
-![MQTT Topic Stub L2R Flow](\assets\images\docs\mqtt_flow_gen_to_specfic.png)
 
-* While Subscribing, multi-level subscriptions (using `#`) are highly discouraged. Use single level wild-card (using `+`) for stubs like DEVICE_STUB on open listners.
-
-* Use MAC address if possible as DEVICE_STUB.
-
-## References
-* https://d1.awsstatic.com/whitepapers/Designing_MQTT_Topics_for_AWS_IoT_Core.pdf
-* https://docs.emqx.io/broker/v3/en/design.html#routing-layer -->
