@@ -1,0 +1,35 @@
+
+
+<div class="background-asset-div">
+    <a-scene embedded>
+        <a-assets>
+            <a-asset-item id="asset-1" src="assets/gltf/phone-poly/model.gltf">
+        </a-assets>
+
+        <a-entity marker-specific-parent="
+            markers:            target-land-1  |   target-right-2   |   target-left-3    |   target-mid-4   |   target-5-why;
+            pos_transitions:    -20, 0, -7     |   -20, 0, -7       |   -20, 0, -7      |   -3, 0, -2.0     |   -7,0,-6 ;
+            rot_transitions:    0,0,0          |    0,0,0           |   -90,0,90         |   0,0,0          |   0, 60, 0 ;
+            " position="0 0 -10" scale="4 4 4">
+
+            <a-gltf-model src="#asset-1" position="0.1 -2 1"></a-gltf-model>
+
+        </a-entity>
+
+        <a-entity marker-specific-parent="
+            markers:            target-land-1  |   target-left-3    |   target-mid-4    | target-5-why;
+            pos_transitions:    20, 0, -7      |   20, 0, -7        |   4, 0, -2.0      |   -6, 0, 5;
+            rot_transitions:    0,0,0          |   0,0,0            |   0,0,0           |   0, 180, 0;
+            " position="0 0 -10" scale="4 4 4">
+
+            <a-gltf-model src="#asset-1" position="0.1 -2 1"></a-gltf-model>
+            <a-sphere marker-specific-show="dev: true;" color="#3FF" radius="0.1"></a-sphere>
+
+        </a-entity>
+
+        <a-entity id="rig" position="-2.5 0 0" rotation="0 0 0">
+            <a-entity id="camera" camera look-controls wasd-controls></a-entity>
+        </a-entity>
+        
+    </a-scene>
+</div>
