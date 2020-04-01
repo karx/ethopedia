@@ -2,7 +2,7 @@
 layout: single
 title:  "Covid 19 - Open Source and Open Data" 
 header:
-  teaser: "/assets/images/docs/mqtt_topics_with_bg.png"
+  teaser: "/assets/images/covid/covid-teaser.jpg"
 tags:
   - Covid 
   - Open Data
@@ -17,9 +17,9 @@ tags:
 #     image: "/assets/images/discord/title.jpeg"
 #     image-alt: discord is our choice
 #     text: Discord is our choice
-# model:
-#   asset: "/assets/models/esp.glb"
-#   color: #FFFFFF
+model:
+  asset: "/assets/images/covid/life-under-quarantine/source/room.gltf"
+  color: #FFFFFF
 ---
 # Fight against Global Pandemic
 
@@ -61,20 +61,15 @@ The raw data used to run this dashboard like many other is sourced from [this Gi
 
 The repository also links references to all the data sources that it uses to compile this information.
 
-* 🔬** COVID19 India Cluster Network**
+* 🔬 **COVID19 India Cluster Network**
+
 A graphical representation of the COVID19 cases in India, and trace.
 [![COVID India Cluster](https://camo.githubusercontent.com/0886f43d3200c0cab37a506b21fdb8967828fa11/68747470733a2f2f692e6962622e636f2f646d4e447468572f53637265656e2d53686f742d323032302d30332d31392d61742d392d31352d35312d504d2e706e67)](https://cluster.covid19india.org/)
 
 The data used for this crowdsourced and collected by volunteers at covid19india.org
 
 They even have filter based on State City and Travel.
-Check out the GitHub repository for 
-
-the Cluster Dashboard: https://github.com/someshkar/covid19india-cluster
-
-the NLP data Extraction: https://github.com/NirantK/coronaIndia
-
-the Unofficial data Repository: https://github.com/amodm/api-covid19-in
+Check out the GitHub repository for [the Cluster Dashboard](https://github.com/someshkar/covid19india-cluster), [the NLP data Extraction](https://github.com/NirantK/coronaIndia) or [the Unofficial data Repository](https://github.com/amodm/api-covid19-in)
 
 
 
@@ -82,6 +77,7 @@ the Unofficial data Repository: https://github.com/amodm/api-covid19-in
 This category will focus on some of the great content pieces created by YouTubers/Cinematographers.
 
 * **Simulating an epidemic**
+
 [![Video by 3b1b](/assets/images/covid/Screenshot_2020-04-01 3blue1brown - YouTube.png)](https://www.youtube.com/watch?v=gxAaO2rsdIs)
 
 This video by 3blue1brown is a mathematical take on how an epidemic grows, using what can be called an "agent-based" SIR model. The following quote from the video makes the rationalist inside me just light up!
@@ -94,7 +90,7 @@ For those who really like this video, the animations are largely made using [man
 ## Open Hardware
 This category will focus on Engineering projects that are making a difference.
 
-* The OpenLung Project
+* **OpenLung Project**
 
 ![Current Design](https://gitlab.com/open-source-ventilator/OpenLung/-/raw/master/images/current_concept.png)
 
@@ -103,6 +99,7 @@ The project is being developed in open collaboration with http://opensourceventi
 
 The design is based/originated out of two prominent groups: the [MIT research group](https://web.mit.edu/2.75/projects/DMD_2010_Al_Husseini.pdf) and another device from [Rice University Mechanical Engineering student group](http://oedk.rice.edu/Sys/PublicProfile/47585242/1063096).
 
+The project uses it's [GitLab page](https://gitlab.com/open-source-ventilator/OpenLung) as the primary srouce of documents and information. 
 
 ## Closing Statements
 Some thoughts I wanted to get out there along with this text.
