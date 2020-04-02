@@ -1,0 +1,10 @@
+---
+layout: archive
+---
+
+{{ content }}
+<div class="allPoems">
+  {% for post in site.poems %}
+    {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+</div>

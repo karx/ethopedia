@@ -9,10 +9,10 @@ var options = {
         format: "implicit",
         word: "started",
         type: "double",
-        width: chart_width,
-        chartArea: {
-            width: chart_width
-        }
+        // width: chart_width,
+        // chartArea: {
+        //     width: chart_width
+        // }
     }
 };
 var g_phrases_array = ["Let's get started shall we"];

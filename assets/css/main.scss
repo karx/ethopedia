@@ -93,7 +93,7 @@ h1,h2,h3,h4 {
     #wordtree_basic {
         position: fixed;
         right: 0;
-        top:0;
+        top:10vh;
         z-index: -1;
 
         svg {
@@ -104,6 +104,12 @@ h1,h2,h3,h4 {
                 fill: violet;
             }
         }
+    }
+    #material_viz {
+        position: fixed;
+        right: 0;
+        top: 50vh;
+        z-index: -1;
     }
     
 }
