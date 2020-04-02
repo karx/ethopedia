@@ -12,6 +12,8 @@ var options = {
 var g_phrases_array = ["Let's get started shall we"];
 var g_data_backtup;
 
+let poemSpeed = 250;
+
 function initChart() {
   var data = google.visualization.arrayToDataTable([
     ["Phrases"],
@@ -52,9 +54,11 @@ async function updateChartWithStrings(phrase_array, focusWord = 'not_set') {
 }
 
 async function updateChartToFocusWord(word) {
-  let chart = globalChartHandle;
-  options.wordtree.word = word;
-  chart.draw(g_data_backtup, options);
+    if (word.length > 0) {
+        let chart = globalChartHandle;
+        options.wordtree.word = word;
+        chart.draw(g_data_backtup, options);
+    }
 }
 
 
@@ -67,11 +71,12 @@ document.addEventListener('DOMContentLoaded', function(){
 async function test() {
     updateChartWithStrings(['Getting started is 50% of सह job done'], 'started');
     loadEntirePoem();
+    showPlayButton();
 }
 async function loadEntirePoem() {
     
     let poemPhrases = await getAllPoemPhrases();
-    console.log(poemPhrases);
+    // console.log(poemPhrases);
     updateChartWithStrings(poemPhrases);
 
 }
@@ -103,19 +108,30 @@ async function startThePoemViz() {
     await asyncForEach(
         poemPhrases,
         async (phrase, i) => {
-            console.log(phrase);
+            // console.log(phrase);
             colorPoemLine(i);
             let wordArray = phrase.split(' ');
             await asyncForEach(
                 wordArray, 
                 async (word) => {
-                updateChartToFocusWord(word);
-                console.log(word);
-                await waitFor(200);
+                var outString = word.replace(/[`~!@#$%^&*()_|+\=?;:'",.<>\{\}\[\]\\\/]/gi, '');
+                // word = word.replace(',',"").replace('!',"").replace('-',"").replace('?',""); //convert to regex
+
+                // hack for sentences ending with - ||| Example बोले-
+                if (outString.indexOf('-') != outString.length - 1) {
+                    updateChartToFocusWord(outString);
+                    await waitFor(poemSpeed);    
+                }
+                
             });
         });
     console.log('Fin.');
 }
+
+async function showPlayButton() {
+    document.getElementById('play-poem').style.display = 'block';
+}
+
 document.getElementById('play-poem').addEventListener('click', async (e) => {
     await startThePoemViz();
     
@@ -130,3 +146,16 @@ const asyncForEach = async (array, callback) => {
     await callback(array[index], index, array)
   }
 }
+
+document.addEventListener('keydown', (e) => {
+    if(e.key == '+') {
+        console.log('speedIncrease');
+        poemSpeed += 5;
+    } else if (e.key == '-') {
+        poemSpeed -= 5;
+    } else if (e.key == '*') {
+        poemSpeed *= 2;
+    } else if (e.key == '/') {
+        poemSpeed /= 2;
+    } 
+});

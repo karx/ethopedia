@@ -87,11 +87,14 @@ h1,h2,h3,h4 {
 }
 
 .poem-viz {
+    #play-poem {
+        display: none;
+    }
     #wordtree_basic {
         position: fixed;
         right: 0;
         z-index: -1;
-        
+
         svg {
             rect {
                 fill:none;
