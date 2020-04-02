@@ -19,6 +19,7 @@ var g_phrases_array = ["Let's get started shall we"];
 var g_data_backtup;
 
 let poemSpeed = 250;
+
 function initChart() {
     var data = google.visualization.arrayToDataTable([
         ["Phrases"],
@@ -66,18 +67,12 @@ async function updateChartToFocusWord(word) {
     }
 }
 
-
-document.addEventListener('DOMContentLoaded', function () {
-    // pushThePlayButton();
-    setTimeout(test, 2600);
-}, false)
-
-
 async function test() {
     updateChartWithStrings(['Getting started is 50% of सह job done'], 'started');
     loadEntirePoem();
     showPlayButton();
 }
+
 async function loadEntirePoem() {
 
     let poemPhrases = await getAllPoemPhrases();
@@ -106,6 +101,7 @@ async function getAllPoemPhrases() {
     let poemPhrases = rawPoemString.split('\n').filter(p => p.length > 0);
     return poemPhrases;
 }
+
 async function startThePoemViz() {
     console.log('poem Play');
 
@@ -137,16 +133,12 @@ async function showPlayButton() {
     document.getElementById('play-poem').style.display = 'block';
 }
 
-document.getElementById('play-poem').addEventListener('click', async (e) => {
-    document.getElementById('wordtree_basic').firstChild.firstChild.style.width = '90vw';
-    await startThePoemViz();
-
-});
-
 async function colorPoemLine(n) {
 
 }
+
 const waitFor = (ms) => new Promise(r => setTimeout(r, ms))
+
 const asyncForEach = async (array, callback) => {
     for (let index = 0; index < array.length; index++) {
         await callback(array[index], index, array)
@@ -165,3 +157,12 @@ document.addEventListener('keydown', (e) => {
         poemSpeed /= 2;
     }
 });
+
+document.getElementById('play-poem').addEventListener('click', async (e) => {
+    document.getElementById('wordtree_basic').firstChild.firstChild.style.width = '90vw';
+    await startThePoemViz();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(test, 500);
+}, false)
