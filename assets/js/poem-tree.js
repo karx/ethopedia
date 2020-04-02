@@ -2,18 +2,23 @@ google.charts.load("current", { packages: ["wordtree"] });
 google.charts.setOnLoadCallback(initChart);
 
 var globalChartHandle;
-var options = {
-  wordtree: {
-    format: "implicit",
-    word: "started",
-    type: "double"
-  }
-};
+let chart_width = 400;
+
+    var options = {
+    wordtree: {
+        format: "implicit",
+        word: "started",
+        type: "double",
+        width: chart_width,
+        chartArea: {
+            width: chart_width
+        }
+    }
+    };
 var g_phrases_array = ["Let's get started shall we"];
 var g_data_backtup;
 
 let poemSpeed = 250;
-
 function initChart() {
   var data = google.visualization.arrayToDataTable([
     ["Phrases"],
@@ -133,6 +138,7 @@ async function showPlayButton() {
 }
 
 document.getElementById('play-poem').addEventListener('click', async (e) => {
+    document.getElementById('wordtree_basic').firstChild.firstChild.style.width = '90vw';
     await startThePoemViz();
     
 });

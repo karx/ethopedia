@@ -32,7 +32,8 @@ ispoem: true
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-          <div id="play-poem" onclick="startThePoemViz()">
+          <div id="play-poem" onclick="">
+              
             🎶
           </div>
         </header>
@@ -52,7 +53,7 @@ ispoem: true
           <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="{{page.model.color}}"></model-viewer>
         </div>
         {% endif %}
-        <div id="viz-poem">
+        <div id="viz-poem"> 
             {{ content }}
         </div>
         <div class="hidden" id="raw-poem"> {{ content }} </div>
