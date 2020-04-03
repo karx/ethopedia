@@ -4,7 +4,7 @@
         <p>Some of our internal projects.</p>
     </div>
     <div class="labs-content">
-        {% for beta in site.labs %}
+        {% for beta in site.labs | where:"published",false %}
         <div class="each-beta-item">
             <div class="item-header">
                 <h3>{{beta.title}}</h3>
