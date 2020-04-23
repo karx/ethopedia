@@ -2,7 +2,7 @@
 layout: single
 title:  "Langton's Ant - Computational Art"
 header:
-  teaser: "/assets/images/langton/3dCanvas.png"
+  teaser: "/assets/images/langton/title.png"
 tags:
   - Finite State Automata
   - Turing Machine
