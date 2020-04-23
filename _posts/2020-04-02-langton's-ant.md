@@ -106,9 +106,8 @@ But this has profound implications in our understanding the fabric of our realit
 
 Let's break this statement down based on our understanding of playing around with our very own UCD, Langton's ant.
 
-* So, if all physical process can be simulated by a UCD, that means, to know the state of this compute system, we would have to run it, for the number of iterations as the universe has been running.
-
-This clearly answers or actually devalues the even asking the question, are we living in a simulation.
+* So, if all physical process can be simulated by a UCD, that means, to know the state of this compute system, we would have to run it, for the number of iterations as the universe has been running.   
+This clearly answers or actually devalues the even asking the question, are we living in a simulation.   
 
 * For any natural theory, we can have what we can call unit test. The law of conservation of momentum. Any theory must satisfy these.
 The CDT principle provides us with a similar unit test (if proven) which would allow us to better understand our reality. Any model of nature must show that the universal compute system is Turing complete.
