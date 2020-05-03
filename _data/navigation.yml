@@ -9,7 +9,7 @@ main:
   - title: "Team"
     url: /team/
   - title: "Contact Us"
-    url: /contact/
+    url: /contact
   - title: "Core"
     url: /core.html
   # - title: "About"
