@@ -30,7 +30,7 @@ tags:
 ---
 
 # Emerald City
-Not liked much by the viewers, its a beautiful village built.
+Not liked much by the viewers, its a beautiful village built by Etho.
 
 ## What is in Emerald City?
 * Bunch of things
