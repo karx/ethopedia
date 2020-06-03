@@ -1,5 +1,6 @@
 ---
 layout: default
+needcopy: true
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -16,7 +17,7 @@ layout: default
 
 <div id="main" role="main">
 
-  {% include sidebar.html %}
+  {% include project_sidebar.html %}
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -50,26 +51,7 @@ layout: default
           <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="{{page.model.color}}"></model-viewer>
         </div>
         {% endif %}
-        <!-- {% if page.features and page.feature_image_full != true%}
-            <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> Features </h4></header>
-            <div class="feature-main">
-                <div class="featureimage">
-                    {% if page.feature_image %}
-                        <img src={{page.feature_image}} alt="" srcset="">
-                    {% endif %}
-                </div>
-                <div class="features feature-list-1">
-                    {% for feature in page.features  %}
-                        <div class="each-feature"> {{feature}} </div>
-                    {% endfor %}
-                </div>
-                <div class="features feature-list-2">
-                    {% for feature in page.features_2  %}
-                        <div class="each-feature"> {{feature}} </div>
-                    {% endfor %}
-                </div>
-            </div>
-           {% endif %} -->
+        
         <h3>Features</h3>
         {% if page.feature_image_full %}
             <img src="{{page.feature_image}}" alt="" srcset="">
