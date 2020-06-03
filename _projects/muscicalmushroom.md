@@ -31,4 +31,4 @@ tags:
 ---
 
 # Musical Mushroom farm
-Has BUD switches, that plays tune whenever a big mushroom grows.
+Has BUD switches, that plays tune whenever a big mushroom grows, and also lights up!
