@@ -6,7 +6,8 @@ categories:
 status: Complete
 # type: System
 layout: projecto
-excerpt: Shulker storage with Searcg
+excerpt: Shulker storage with Search
+coords: -40 44 -421
 related_youtube:
   - url: https://www.youtube.com/watch?v=ULcdBpWb2No
     title: World Tour
