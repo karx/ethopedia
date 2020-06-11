@@ -9,6 +9,7 @@ Ethopedia - Embracing Ethoslab
 ## Important Community posts
 * https://www.reddit.com/r/ethoslab/comments/d6yz97/i_made_a_timeline_of_all_of_ethos_series/
 * https://www.reddit.com/r/ethoslab/comments/fzv1nz/video_series_timeline_25_years_later/
+* https://www.reddit.com/r/ethoslab/comments/gypf43/i_am_working_on_a_project_guys/
 
 
 ## Tools
