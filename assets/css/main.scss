@@ -8,7 +8,17 @@
 
 $header-font-family: 'Permanent Marker', cursive;
 $content-font-family: 'Kalam', cursive;
+$sign-font-family: 'Minecraftia Regular';
 
+@font-face {
+    font-family:"Minecraftia Regular";
+    src:url("/assets/css/fonts/Minecraftia.eot?") format("eot"),
+        url("/assets/css/fonts/Minecraftia.woff") format("woff"),
+        url("/assets/css/fonts/Minecraftia.ttf") format("truetype"),
+        url("/assets/css/fonts/Minecraftia.svg#Minecraftia") format("svg");
+        font-weight:normal;
+        font-style:normal;
+    }
 
 body {
     // background: black;
@@ -116,4 +126,111 @@ h1,h2,h3,h4 {
         z-index: -1;
     }
     
+}
+
+
+.sign-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+a {
+    
+}
+.mc-sign {
+    font-family: $sign-font-family;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: auto;
+    padding-top: 6px;
+    margin: auto;
+    cursor: pointer;
+    background-image: url("/assets/images/sign.png");
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+
+   
+    p {
+        line-height: 22px;
+        font-size: 16px; /* 18 is better but looks blurred */
+        font-weight: 550;
+        margin: auto;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+    }
+        
+    .url {
+        color: #000000;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .color0 {
+        color: #000000;
+    }
+    .color1 {
+        color: #0000AA;
+    }
+    .color2 {
+        color: #00AA00;
+    }
+    .color3 {
+        color: #00AAAA;
+    }
+    .color4 {
+        color: #AA0000;
+    }
+    .color5 {
+        color: #AA00AA;
+    }
+    .color6 {
+        color: #FFAA00;
+    }
+    .color7 {
+        color: #AAAAAA;
+    }
+    .color8 {
+        color: #555555;
+    }
+    .color9 {
+        color: #5555FF;
+    }
+    .colora {
+        color: #55FF55;
+    }
+    .colorb {
+        color: #55FFFF;
+    }
+    .colorc {
+        color: #FF5555;
+    }
+    .colord {
+        color: #FF55FF;
+    }
+    .colore {
+        color: #FFFF55;
+    }
+    .colorf {
+        color: #FFFFFF;
+    }
+    .colorl {
+        font-weight: 800;
+    }
+    .colorm {
+        text-decoration: line-through;
+    }
+    .colorm {
+        text-decoration: line-through;
+    }
+    .colorn {
+        text-decoration: underline;
+    }
+    .colorr {
+        font-style: italic;
+    }
 }

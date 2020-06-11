@@ -86,6 +86,30 @@ needcopy: true
           </div>
           {% endif %}
 
+
+          {% if page.related_youtube and page.related_youtube[0] %}
+          <h2>Related Videos</h2>
+            <div class="sign-container">
+              {% for eachVid in page.related_youtube %}
+                <div class="mc-sign">
+                  <p class="color0">
+                    {{eachVid.episodeNumber}}
+                  </p>
+                  <p>
+                    {{eachVid.title}}
+                  </p>
+                  <a href="{{eachVid.url}}" target="_blank" rel="noopener noreferrer">
+                    <p class="url">
+                      {{eachVid.url}}
+                    </p>
+                  </a>
+                  <p>
+                    {{eachVid.date}}
+                  </p>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
       </section>
 
       <footer class="page__meta">
