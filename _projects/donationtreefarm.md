@@ -13,10 +13,10 @@ related_youtube:
     title: Tree ceiling
 
   
-feature_image: /assets/images/donatortreefarm.jpg
+feature_image: /assets/images/treefarm_A.jpg
 
 header: 
-    overlay_image: '/assets/images/donatortreefarm.jpg'
+    overlay_image: '/assets/images/treefarm_A.jpg'
     overlay_filter: 0.5 
 
 tags:
