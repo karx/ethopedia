@@ -20,7 +20,7 @@ title                    : "Ethopedia"
 title_separator          : "-"
 name                     : "Ethopedia"
 description              : "Embracing Ethoslab"
-url                      : https://www.youtube.com/user/EthosLab
+url                      : https://ethopedia.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
 teaser                   : "/assets/images/teaser.jpg"
