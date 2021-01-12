@@ -23,6 +23,10 @@ header:
     overlay_image: '/assets/images/dreary_A.jpg'
     overlay_filter: 0.5 
 
+model:
+  asset: "/assets/mineways/drearyvil.gltf"
+  color: #FFFFFF
+
 
 tags:
   - Build

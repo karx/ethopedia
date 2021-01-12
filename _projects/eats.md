@@ -19,6 +19,11 @@ related_youtube:
     title: EATS prototype
     excerpt: new Prototype showcase of EATS
   
+
+model:
+  asset: "/assets/mineways/ethodd.gltf"
+  color: #FFFFFF
+
 # feature_image: /assets/images/speedchallenge.jpg
 
 # header: 

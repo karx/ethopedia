@@ -318,6 +318,10 @@ defaults:
       share: true
       related: false
       toc: false
+      model:
+        asset: "/assets/mineways/ethodd.gltf"
+        color: #FFFFFF
+
   # _team
   - scope:
       path: ""
