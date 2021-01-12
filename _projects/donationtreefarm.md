@@ -31,6 +31,8 @@ tags:
   - Minecraft
   - Mega
   - Farm
+
+coords: -286 41 162
 ---
 
 ## What is the Tree Farm?
