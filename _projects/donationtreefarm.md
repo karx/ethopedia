@@ -13,6 +13,9 @@ related_youtube:
     title: Tree ceiling
 
   
+model:
+  asset: "/assets/mineways/treeefarm.gltf"
+  color: #FFFFFF
 feature_image: /assets/images/treefarm_A.jpg
 
 header: 
