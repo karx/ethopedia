@@ -33,7 +33,6 @@ tags:
   
 ---
 
-# Sandy City
 Part of the Biome Enhancement Project.
 
 ## What do we have in Sandy City?

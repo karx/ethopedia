@@ -27,3 +27,8 @@ This site is created to empower the upcoming Episode 550 World download. As ment
 
 
 > I have a PLAN guys!
+
+
+## References
+* Our Hero: [Ethoslab](https://www.youtube.com/user/EthosLab)
+* Models for the projects are generated using [Mineways](mineways.com) and [obj2gltf](https://github.com/CesiumGS/obj2gltf).
