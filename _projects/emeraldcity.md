@@ -30,8 +30,14 @@ tags:
 ---
 
 # Emerald City
-Not liked much by the viewers, its a beautiful village built.
+A viewer favorite (not), a beautiful underground village!
 
 ## What is in Emerald City?
 * Bunch of things
 * No villagers
+
+
+....
+
+
+Used mostly for storage now.

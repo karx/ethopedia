@@ -30,7 +30,7 @@ tags:
 ## Slime Farm
 Multilayer Slime Farm by Etho.
 
-The farm also seperates slime based on size.
+The farm also a neat slime filterations system based on size.
 
 ## Special
 * A full size slime is sent to the [Donator tree farm](./donationtreefarm) every so often.

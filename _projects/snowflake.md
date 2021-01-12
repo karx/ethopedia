@@ -12,6 +12,10 @@ related_youtube:
   - url: https://www.youtube.com/watch?v=ULcdBpWb2No
     title: World Tour
 
+model:
+  asset: "/assets/mineways/snowflake_24_255.gltf"
+  color: #FFFFFF
+
   
 feature_image: /assets/images/speedchallenge.jpg
 

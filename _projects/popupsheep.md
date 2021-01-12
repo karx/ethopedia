@@ -12,6 +12,8 @@ related_youtube:
     title: Latest fix on Sheep farm
   
 
+feature_image: /assets/images/shsheepFarmA.jpg
+
 tags:
   - Etho
   - Youtube

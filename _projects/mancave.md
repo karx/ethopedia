@@ -73,6 +73,7 @@ The man cave houses many many projects built by etho like:
 * Get-your-snakes machine!
 * Random firework crafting room
 * Random wall changing room
+* Ender perl dispencers
 
 
 ## Conventions

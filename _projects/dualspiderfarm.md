@@ -31,3 +31,6 @@ tags:
   - Farm
 ---
 
+For the longest time this was the prime source of XP. 
+
+Has the spiral updwards water trickery to push the spiders to a height and drop them into a small killing chamber. 
