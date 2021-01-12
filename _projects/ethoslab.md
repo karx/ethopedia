@@ -7,7 +7,7 @@ categories:
 status: Complete
 # type: System
 layout: projecto
-excerpt: Wilson - A tamagotchi in Minecraft
+excerpt: Fully automatic gigantic potion brewing facility
 related_youtube:
   - url: https://www.youtube.com/watch?v=SCcYNMOJrao
     title: Begin Construction
