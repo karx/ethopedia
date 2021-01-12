@@ -11,6 +11,9 @@ related_youtube:
   - url: https://www.youtube.com/watch?v=yvDPXk-odA4&t=660s
     title: Latest fix on Sheep farm
   
+model:
+  asset: "/assets/mineways/sheepfarm.gltf"
+  color: #FFFFFF
 
 feature_image: /assets/images/shsheepFarmA.jpg
 

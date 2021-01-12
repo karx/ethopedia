@@ -18,6 +18,12 @@ header:
     overlay_image: '/assets/images/lab_a.jpg'
     overlay_filter: 0.5 
 
+coords: -333 32 263
+
+model:
+  asset: "/assets/mineways/ethoslab.gltf"
+  color: #FFFFFF
+
 tags:
   - Redstone
   - Etho

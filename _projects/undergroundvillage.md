@@ -17,6 +17,13 @@ header:
     overlay_image: '/assets/images/villager_a.jpg'
     overlay_filter: 0.5 
 
+
+model:
+  asset: "/assets/mineways/villageA.gltf"
+  color: #FFFFFF
+
+coords: -345 24 324
+
 tags:
   - Cave
   - Etho
@@ -26,8 +33,11 @@ tags:
   - Minecraft
   - Base
   - Village
-  
 ---
+
+Some of these hermit NPC are from the before before times. 
+
+## Its thriving
 * It has a school!
 * The trading village used by Etho
 * This village helps Etho get the `Book n Quil` for comment of the day.
