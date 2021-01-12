@@ -25,6 +25,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
 teaser                   : "/assets/images/teaser.jpg"
 logo                     : "/assets/images/519-0.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+model_teaser             : "/assets/images/Etho_teaser.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -212,7 +213,7 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: comment_of_the_day
-  
+
 
 # Sass/SCSS
 sass:

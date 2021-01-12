@@ -49,7 +49,7 @@ modelfullscreen: true
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         {% if page.model%}
         <div class="model-view" id="page-model">
-          <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="{{page.model.color}}"></model-viewer>
+          <model-viewer src="{{page.model.asset}}" loading="eager" auto-rotate camera-controls background-color="{{page.model.color}}" poster="{{site.model_teaser}}"></model-viewer>
         </div>
         {% endif %}
 
