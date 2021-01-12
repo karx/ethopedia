@@ -1,6 +1,7 @@
 ---
 layout: default
 needcopy: true
+modelfullscreen: true
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -47,17 +48,17 @@ needcopy: true
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         {% if page.model%}
-        <div class="model-view">
+        <div class="model-view" id="page-model">
           <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="{{page.model.color}}"></model-viewer>
         </div>
         {% endif %}
-        
+
         {% if page.features and page.features[0] %}
           <h3>Features</h3>
           {% if page.feature_image_full %}
               <img src="{{page.feature_image}}" alt="" srcset="">
           {% endif %}
-        
+
           <div class="features">
 
             {% for feature in page.features %}

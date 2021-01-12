@@ -20,6 +20,12 @@ related_youtube:
   
 feature_image: /assets/images/wilson.jpg
 
+
+model:
+  asset: "/assets/mineways/wilson.gltf"
+  color: #FFFFFF
+
+
 header: 
     overlay_image: '/assets/images/wilson.jpg'
     overlay_filter: 0.5 
