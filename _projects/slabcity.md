@@ -13,6 +13,10 @@ related_youtube:
 
 feature_image: /assets/images/slabcity.png
 
+model:
+  asset: "/assets/mineways/slabcity.gltf"
+  color: #FFFFFF
+
 header: 
     overlay_image: '/assets/images/slabcity.png'
     overlay_filter: 0.5 
