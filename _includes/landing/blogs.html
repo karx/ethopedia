@@ -4,7 +4,7 @@
         <p>What etho Upto?</p>
     </div>
     <div class="blogs-content">
-        {% for post in site.projects limit:8 %}
+        {% for post in site.projects | offset:10 | limit:8 %}
             {% if post.id == page.id %}
                 {% continue %}
             {% endif %}

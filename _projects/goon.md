@@ -16,7 +16,7 @@ related_youtube:
 feature_image: /assets/images/goon_farm.jpg
 
 header: 
-    overlay_image: '/assets/images/goon_farm.png'
+    overlay_image: '/assets/images/goon_farm.jpg'
     overlay_filter: 0.5 
 
 model:
