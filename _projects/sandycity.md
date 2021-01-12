@@ -13,6 +13,11 @@ related_youtube:
 
 feature_image: /assets/images/sandycity.jpg
 
+
+model:
+  asset: "/assets/mineways/sandycity.gltf"
+  color: #FFFFFF
+
 header: 
     overlay_image: '/assets/images/sandycity.jpg'
     overlay_filter: 0.5 

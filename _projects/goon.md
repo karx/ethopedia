@@ -19,6 +19,10 @@ header:
     overlay_image: '/assets/images/goon_farm.png'
     overlay_filter: 0.5 
 
+model:
+  asset: "/assets/mineways/goon.gltf"
+  color: #FFFFFF
+  
 
 tags:
   - Farm

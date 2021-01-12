@@ -1,6 +1,6 @@
 ---
 name: Etho's Lab
-title: Wilson
+title: Etho's Lab
 categories:
   - Redstone
   - Technical
