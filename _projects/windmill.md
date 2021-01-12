@@ -14,6 +14,9 @@ related_youtube:
   
 feature_image: /assets/images/windmill.jpg
 
+model:
+  asset: "/assets/mineways/windmill.gltf"
+  color: #FFFFFF
 header: 
     overlay_image: '/assets/images/windmill.jpg'
     overlay_filter: 0.5 

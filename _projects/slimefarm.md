@@ -13,6 +13,9 @@ related_youtube:
   
 feature_image: /assets/images/slimefarm.jpg
 
+model:
+  asset: "/assets/mineways/slimefarm.gltf"
+  color: #FFFFFF
 header: 
     overlay_image: '/assets/images/slimefarm.jpg'
     overlay_filter: 0.5 

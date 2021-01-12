@@ -16,6 +16,10 @@ related_youtube:
   
 feature_image: /assets/images/nexusA.jpg
 
+model:
+  asset: "/assets/mineways/nexus.gltf"
+  color: #FFFFFF
+
 header: 
     overlay_image: '/assets/images/nexusA.jpg'
     overlay_filter: 0.5 

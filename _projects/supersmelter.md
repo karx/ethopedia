@@ -12,6 +12,12 @@ related_youtube:
     title: World Tour
 
   
+
+model:
+  asset: "/assets/mineways/supersmelter.gltf"
+  color: #FFFFFF
+
+
 feature_image: /assets/images/speedchallenge.jpg
 
 header: 

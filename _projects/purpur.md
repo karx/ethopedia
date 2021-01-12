@@ -16,6 +16,11 @@ related_youtube:
 
 feature_image: /assets/images/purpur_a.jpg
 
+
+model:
+  asset: "/assets/mineways/purpur.gltf"
+  color: #FFFFFF
+
 header: 
     overlay_image: '/assets/images/purpur_a.jpg'
     overlay_filter: 0.5 

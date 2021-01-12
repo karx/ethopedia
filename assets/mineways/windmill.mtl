@@ -1,5 +1,5 @@
 Wavefront OBJ material file
-# Contains 75 materials
+# Contains 37 materials
 
 newmtl Stone
 # Ns 0
@@ -94,45 +94,6 @@ map_Kd windmill-RGB.png
 # d 1
 # Tr 0
 
-newmtl Iron_Ore
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Coal_Ore
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Oak_Log
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
 newmtl Oak_Leaves
 # Ns 0
 # Ka 0.2 0.2 0.2
@@ -143,60 +104,6 @@ Ks 0 0 0
 interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
 map_Kd windmill-RGBA.png
 map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Glass
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0.03 0.03 0.03
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Note_Block
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Bed
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Sticky_Piston
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
 # illum 2
 # d 1
 # Tr 0
@@ -228,7 +135,7 @@ map_Kd windmill-RGB.png
 # d 1
 # Tr 0
 
-newmtl Piston_Head
+newmtl Wool
 # Ns 0
 # Ka 0.2 0.2 0.2
 Kd 1 1 1
@@ -237,20 +144,6 @@ Ks 0 0 0
 # for G3D, to make textures look blocky:
 interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
 map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Dandelion
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
 # illum 2
 # d 1
 # Tr 0
@@ -265,32 +158,6 @@ Ks 0 0 0
 interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
 map_Kd windmill-RGBA.png
 map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Stone_Slab
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Mossy_Cobblestone
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
 # illum 2
 # d 1
 # Tr 0
@@ -311,22 +178,6 @@ map_Ke windmill-RGBA.png
 # d 1
 # Tr 0
 
-newmtl Fire
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-Ke 1 1 1
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-map_Ke windmill-RGBA.png
-# illum 2
-# d 1
-# Tr 0
-
 newmtl Oak_Stairs
 # Ns 0
 # Ka 0.2 0.2 0.2
@@ -336,33 +187,6 @@ Ks 0 0 0
 # for G3D, to make textures look blocky:
 interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
 map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Chest
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Redstone_Wire
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
 # illum 2
 # d 1
 # Tr 0
@@ -407,33 +231,6 @@ map_Kd windmill-RGB.png
 # d 1
 # Tr 0
 
-newmtl Furnace
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Ladder
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
 newmtl Cobblestone_Stairs
 # Ns 0
 # Ka 0.2 0.2 0.2
@@ -447,63 +244,7 @@ map_Kd windmill-RGB.png
 # d 1
 # Tr 0
 
-newmtl Wall_Sign
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Oak_Pressure_Plate
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Redstone_Torch_(inactive)
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Redstone_Torch_(active)
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-Ke 0.318794 0.318794 0.318794
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-map_Ke windmill-RGBA.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Stone_Button
+newmtl Lever
 # Ns 0
 # Ka 0.2 0.2 0.2
 Kd 1 1 1
@@ -517,32 +258,6 @@ map_Kd windmill-RGB.png
 # Tr 0
 
 newmtl Fence
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Netherrack
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Soul_Sand
 # Ns 0
 # Ka 0.2 0.2 0.2
 Kd 1 1 1
@@ -569,34 +284,6 @@ map_Ke windmill-RGB.png
 # illum 2
 # d 1
 # Tr 0
-
-newmtl Redstone_Repeater_(inactive)
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Stained_Glass
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0.03 0.03 0.03
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-# illum 4
-# d 0.5
-# Tr 0.5
-# Tf 0.5 0.5 0.5
 
 newmtl Oak_Trapdoor
 # Ns 0
@@ -625,47 +312,20 @@ map_Kd windmill-RGB.png
 # d 1
 # Tr 0
 
+newmtl Fence_Gate
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka windmill-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd windmill-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
 newmtl Stone_Brick_Stairs
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Nether_Brick
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Cauldron
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Redstone_Lamp_(inactive)
 # Ns 0
 # Ka 0.2 0.2 0.2
 Kd 1 1 1
@@ -704,6 +364,19 @@ map_Kd windmill-RGB.png
 # d 1
 # Tr 0
 
+newmtl Spruce_Stairs
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka windmill-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd windmill-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
 newmtl Cobblestone_Wall
 # Ns 0
 # Ka 0.2 0.2 0.2
@@ -730,58 +403,6 @@ map_Kd windmill-RGB.png
 # d 1
 # Tr 0
 
-newmtl Oak_Button
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Anvil
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Redstone_Comparator
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Hopper
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
 newmtl Stained_Glass_Pane
 # Ns 0
 # Ka 0.2 0.2 0.2
@@ -796,20 +417,6 @@ map_d windmill-Alpha.png
 # d 0.5
 # Tr 0.5
 # Tf 0.5 0.5 0.5
-
-newmtl Acacia_Leaves
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
 
 newmtl Acacia_Log
 # Ns 0
@@ -838,32 +445,6 @@ map_d windmill-Alpha.png
 # d 0.7
 # Tr 0.3
 # Tf 0.3 0.3 0.3
-
-newmtl Block_of_Coal
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Packed_Ice
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
 
 newmtl Sunflower
 # Ns 0
@@ -915,101 +496,6 @@ Ks 0 0 0
 interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
 map_Kd windmill-RGBA.png
 map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Purpur_Block
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Purpur_Pillar
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Purpur_Stairs
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Jungle_Trapdoor
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Spruce_Pressure_Plate
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Stone_Cutter
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-# map_Ka windmill-RGB.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGB.png
-# illum 2
-# d 1
-# Tr 0
-
-newmtl Lantern
-# Ns 0
-# Ka 0.2 0.2 0.2
-Kd 1 1 1
-Ks 0 0 0
-Ke 1 1 1
-# map_Ka windmill-RGBA.png
-# for G3D, to make textures look blocky:
-interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
-map_Kd windmill-RGBA.png
-map_d windmill-Alpha.png
-map_Ke windmill-RGBA.png
 # illum 2
 # d 1
 # Tr 0
